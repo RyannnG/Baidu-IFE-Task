@@ -1,0 +1,17 @@
+th{
+	color: white;
+	font-size: 1;
+	background-color: black;
+}
+
+tr:nth-child(2n+1){
+	background-color: gray;
+}
+tr:nth-child(2), tr:nth-child(3),tr:nth-child(4){
+	color: red;
+}
+#background{
+	width: 480px;
+	height: 320px;
+	background-color: green;
+}

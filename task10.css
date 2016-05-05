@@ -1,0 +1,52 @@
+div{
+	display: flex;
+
+
+}
+
+.child{
+		width: 150px;
+	    border: 1px solid #f00;
+	    margin: 20px;
+}
+
+#first{
+	height: 120px;
+
+}
+
+#second{
+	height: 100px;
+}
+
+#third{
+
+	height: 40px;
+
+}
+
+#blue{
+
+	height: 200px;
+    border: 1px solid #00f;
+
+}
+
+@media screen and (min-width: 641px){
+	div#main{
+    justify-content:space-between; 
+    align-items: center;
+
+	}
+}
+
+@media screen and (max-width: 640px){
+	div#main{
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+    
+	#blue{
+		order: -1;
+	}
+}

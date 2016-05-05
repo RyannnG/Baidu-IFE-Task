@@ -1,0 +1,61 @@
+
+div.main{
+	background-color:    #eee;
+	border: 1px solid #999;
+	margin-top:       20px;
+	margin-right:     10px;
+	margin-left:      10px;
+    padding:          20px;
+    font-family: "微软雅黑";
+    overflow: auto;
+
+}
+
+#teamname, #discription, #teammember{
+	
+	background-color: white;
+	border: 1px solid #999;
+}
+
+#teamname{
+	width:         198px;
+    float:         left;
+    padding:       20px;
+    padding-right: 0;
+}
+
+.logo{
+	float: left;
+}
+
+.name p{
+    float:        left;
+	margin-top:   0;
+	margin-left:  20px;
+
+}
+
+.memberpic{
+	margin: 10px 20px;
+}
+
+
+#teammember{
+	width: 118px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+	
+#discription{
+	margin-left:  240px;
+	margin-right: 140px;
+	padding:      20px;
+}
+
+
+
+
+
+

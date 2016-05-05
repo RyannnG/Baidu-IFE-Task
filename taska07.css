@@ -1,0 +1,241 @@
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+* a{
+	text-decoration: none;
+}
+
+* ul{
+    list-style: none;
+}
+
+/*header*/
+
+#header{
+	overflow: auto;
+}
+
+#logo{	
+	background: white url(images/task07/task_1_6_1_0000s_0009s_0005__编组_.png) no-repeat center left;
+    font: 21px "黑体";
+    text-indent: 43px;
+    
+    height: 55px;
+   
+    float: left;
+    margin-left: 60px;
+
+
+}
+#logo a{
+	color: black;
+	line-height: 55px;
+}
+
+#header nav{
+
+    float: right;
+
+}
+#header ul{
+	margin: 0px;
+	overflow: auto;
+}
+
+#header ul li{
+    
+    
+    font: 14px "微软雅黑";
+
+    text-align: center;
+    height: 52px;
+    width: 65px;
+    float: left;
+    line-height: 50px;
+    margin-right: 35px;
+    
+}
+
+#header ul li a{
+	color: #767777;
+}
+
+#header ul li:hover, li:focus{
+	
+	border-bottom: 3px solid #e74f4d;
+}
+#header ul li a:hover, a:focus{
+	color: #e74f4d;
+}
+
+.login{
+	font: 14px "微软雅黑";
+	background: white url(images/task07/task_1_6_1_0000s_0009s_0003__编组_.png) no-repeat center left;
+    
+    text-indent: 20px;
+    float: right;
+    line-height: 50px;
+    margin-right: 66px;
+}
+.login a{
+	color: #e74f4d;
+	
+}
+
+/*footer*/
+
+footer{
+    height: 30px;
+    background-color: #303039;
+    font: 12px "宋体";
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+
+footer a{
+	color: #ffffff;
+	float: right;
+	margin-top: 0;
+	margin-right: 40px;
+}
+
+footer p{
+	margin-left: 100px;
+	margin-top: 0;
+}	
+
+/*main pic*/
+
+#main_interface{
+	background:  url(images/task07/task_1_6_1_0000s_0008s_0005_图一.png) no-repeat;
+    position: relative;
+}
+
+.main_interface_bgd{
+	background-color: rgba(0,0,0,0.2);
+	height: 690px;
+}
+
+.main_interface_content{
+	position: absolute;
+	top: 230px;
+	left: 125px;
+
+}
+
+.yahei{
+	font-family: "微软雅黑";
+	margin-top: 0px;
+	
+}
+.time{
+	font-size: 60px;
+	color: #ffffff;
+	line-height: 60px;
+	margin-left: -8px;
+	margin-bottom: 27px;
+}
+.xinshidai{
+	font-size: 21px;
+	color: #ffffff;
+	margin-bottom: 0px;
+	
+}
+.kaishi{
+	font-size: 30px;
+	color: #ffffff;
+    line-height: 65px;
+	width: 330px;
+	height: 65px;
+	border: 0px;
+	padding: 0px;
+    margin-top: 65px;
+	background-color: #e7504d;
+	cursor: pointer;
+}
+
+/*sub inter*/
+
+.heiti{
+	font: 14px "黑体";
+	color: #767777;
+	
+
+}
+
+#sub_interface{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+}
+
+
+#sub_interface div{
+    width: 25%;
+    height: 250px;
+    background-position: center 45px;
+}
+
+#sub_interface div p{
+    text-align: center;
+    height: 52px;
+    border-right: solid 2px #767777;
+    margin-top: 132px;
+}
+
+#sub_interface .flex4 p{
+	border: 0px;
+}
+
+.flex1{
+   background: url(images/task07/task_1_6_1_0000s_0007s_0007__编组_.png) no-repeat center;
+   
+}
+.flex2{
+	background: url(images/task07/task_1_6_1_0000s_0007s_0006__编组_.png) no-repeat center;
+ }   
+.flex3{
+	background: url(images/task07/task_1_6_1_0000s_0007s_0005__编组_.png) no-repeat center;
+    
+}
+.flex4{
+	background: url(images/task07/task_1_6_1_0000s_0007s_0008__编组_.png) no-repeat center;
+    
+}
+
+/*3*/
+
+#interface3{
+	height: 250px;
+	background-color: #ededed;
+	padding-top: 90px;
+}
+.img{
+	width: 92px;
+	height: 92px;
+	margin: 0 auto;
+	
+	background: url(images/task07/task_1_6_1_0000s_0006s_0001__编组_.png) no-repeat center center;
+}
+#interface3 p{
+	font: 53.59px "黑体";
+	color: #a1a1a1;
+	margin-top: 48px;
+	text-align: center;
+}
+
+/*4*/
+#interface4 form select{
+	appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
