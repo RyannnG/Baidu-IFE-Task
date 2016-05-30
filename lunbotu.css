@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	padding: 30px;
+}
+
+#container {
+	width: 680px;
+	height: 360px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#list {
+	width: 5440px;
+	height: 360px;
+	position: absolute;
+
+
+}
+
+#list img {
+	float: left;
+	
+}
+
+/*前后箭头*/
+.arrow-nav a {
+	position: absolute;
+	top: 50%;
+	display: none;
+	margin: -20px 0 0;
+	transition: all .3s ease;
+
+	background-color: rgba(0, 0, 0, .2);
+	width: 30px;
+	height: 60px;
+}
+
+.arrow-nav a:hover {
+	background-color: rgba(0, 0, 0, .4);
+}
+
+#container:hover .arrow-nav a {
+	display: block;
+}
+
+.arrow-nav a span {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: url(images/arrow.png) no-repeat;
+}
+
+
+
+/*箭头雪碧图*/
+.arrow-nav a#prev span {
+	background-position: 4px 0;
+}
+
+.arrow-nav a#next span {
+	background-position: 4px -28px;
+}
+
+.arrow-nav #prev {
+	left: 0;
+}
+
+.arrow-nav #next {
+	right: 0;
+}
+
+/*底部导播点*/
+#disc-nav {
+	position: absolute;
+	bottom: 4px;
+	z-index: 10;
+	text-align: center;
+	width: 100%;
+}
+
+#disc-nav  {
+	display: inline-block;
+}
+
+#disc-nav a {	
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 26px;
+	color: #8c8c8c;
+	cursor: pointer;
+}
+
+#disc-nav  a.active {
+	color: #e6551d
+}
